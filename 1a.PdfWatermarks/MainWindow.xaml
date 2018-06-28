@@ -1,0 +1,25 @@
+﻿<Window x:Class="_1a.PdfWatermarks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_1a.PdfWatermarks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="704.83">
+    <Grid>
+        <Button Name="addWatermark" Content="Add Watermark" HorizontalAlignment="Left" Margin="490,317,0,0" VerticalAlignment="Top" Width="92" RenderTransformOrigin="-0.264,0.588" Click="addWatermark_Click"/>
+        <RadioButton Name="hlButton" Content="H.Left" HorizontalAlignment="Left" Margin="423,305,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name ="dlButton" Content="L.Left" HorizontalAlignment="Left" Margin="423,333,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name ="hrButton" Content="H.Right" HorizontalAlignment="Left" Margin="605,305,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name ="drButton" Content="D.Right" HorizontalAlignment="Left" Margin="605,333,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name ="hButton" Content="Top" HorizontalAlignment="Left" Margin="517,292,0,0" VerticalAlignment="Top"/>
+        <RadioButton Name ="dButton" Content="Footer" HorizontalAlignment="Left" Margin="517,355,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.765,-1.94"/>
+        <Image Name ="simplePDF" HorizontalAlignment="Left" Height="252" Margin="423,20,0,0" VerticalAlignment="Top" Width="237"/>
+        <Button Name ="chooseButton" Content="Choose PDF file..." HorizontalAlignment="Left" Margin="147,159,0,0" VerticalAlignment="Top" Width="117" Height="47" Click="chooseButton_Click"/>
+        <Button Name ="closeButton" Content="Close" HorizontalAlignment="Left" Margin="147,243,0,0" VerticalAlignment="Top" Width="117" Height="47" Click="closeButton_Click"/>
+        <TextBox Name ="textBox" HorizontalAlignment="Left" Height="23" Margin="21,98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="378" RenderTransformOrigin="0.317,0.496" UndoLimit="150" Background="#FFCDCDCD"/>
+
+
+
+    </Grid>
+</Window>
